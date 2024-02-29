@@ -79,14 +79,14 @@
         /// <param name="section">String input for section name</param>
         static void SectionSeparator(string section)
         {
-            Console.WriteLine("".PadRight(50, '*') + $"\n/t/t{section} Section\n" + "".PadRight(50, '*'));
+            Console.WriteLine("".PadRight(50, '*') + $"\n\t\t{section} Section\n" + "".PadRight(50, '*'));
         }
 
         /// <summary>
         /// Array Traversal
         /// </summary>
         /// <param name="array">Integer array to traverse</param>
-        static void ArrayTravesal(int[] array)
+        static void ArrayTraversal(int[] array)
         {
             // you can use a for-loop or other looping statements for array traversals
             for (int i = 0; i < array.Length; i++)
